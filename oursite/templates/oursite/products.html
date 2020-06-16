@@ -1,0 +1,59 @@
+{% extends 'oursite/base.html'%}
+{% load static %}
+{% block body %}
+<div class="container mt-5">
+    <h1 class="text-center text-body text-primary">Our products</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="media-body">
+                <img src="{% static 'images/photo.png'%}" class="mr-3 align-self-start" alt="..." height="100px" width="300px">
+                <div class="media-body">
+                  <h5 class="mt-2 text-body text-center" style="font-weight: bolder;">Wex Information System</h5>
+                  <p>This is a one stop stand sales management system for any
+                    restaurant, bar and hotel business category.<a class="pl-2 text-primary" href="">read more</a></p>
+                  
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="media">
+                <img src="{% static ''%}" class="align-self-start mr-3" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-2">Wex Information system</h5>
+                  <p>This is a one stop stand sales management system for any
+                    restaurant,bar and hotel business category.</p>
+                  
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="media">
+                <img src="{% static ''%}" class="align-self-start mr-3" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-2">Wex Information system</h5>
+                  <p>This is a one stop stand sales management system for any
+                    restaurant, bar and hotel business category.</p>
+                  
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>    
+    <div class="row">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+
+    </div>
+</div>
+{% endblock%}

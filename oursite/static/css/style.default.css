@@ -1,0 +1,556 @@
+
+/*
+*
+*
+* General
+* 
+*
+*/
+body {
+  overflow-x: hidden;
+  background-color:#FFFFFF;
+  padding-top:0;
+  height: 100%;
+}
+
+a, button {
+  -webkit-transition: all 0.3s;
+  transition: all 0.2s;
+  outline: none;
+}
+
+a i.fa, button i.fa {
+  margin: 0 5px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.btn-primary {
+  color: #fff !important;
+}
+
+.btn + .btn {
+  margin-left: 5px;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.clickable {
+  cursor: pointer;
+}
+.menu-large {
+  position: static !important;
+} 
+.all{
+  margin-top: 50px;
+}
+
+
+
+.menu-large .megamenu {
+  padding: 20px;
+  width: 100%;
+  max-width: 1140px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-top: -1px;
+}
+
+.menu-large a.nav-link {
+  padding: 7px !important;
+  padding-left: 0 !important;
+}
+#map{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  #map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+/*
+*
+* ======================================================================
+* ABOUT US
+* ======================================================================
+*
+*/
+.about-us{
+  font-family:'Times New Roman', Times, serif;
+  font-size:larger;
+  color: #000000;
+  font-size: 17px;
+}
+.core_values h4{
+  font-family:'Times New Roman', Times, serif;
+  font-size: larger;
+  color: #000000;
+  font-size: 17px;
+
+}
+wex{
+  font-size: 17px;
+}
+
+/*
+*
+* ======================================================================
+* CONTACT US
+* ======================================================================
+*
+*/
+.contact_form{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*
+======================================================================
+* services_page
+* ======================================================================
+*/
+.service_up{
+  font-size: 17px;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.service_up h1{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+.others{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+
+}
+/*
+*
+* ======================================================================
+* NAVBAR
+* ======================================================================
+*
+*/
+
+
+
+/*
+*
+* ======================================================================
+* sERVICES
+* ======================================================================
+*
+*/
+#services h2 {
+  letter-spacing: 0.1em;
+  font-size: 2.25rem;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+}
+.services{
+  font-family:'Times New Roman', Times, serif;
+  color: #000a12;
+  font-size: 17px;
+
+}
+#our_clients{
+  letter-spacing: 0.1em;
+  font-size: 2.25em;
+  color: #000;
+  font-weight: 100;
+  text-align: center;
+}
+.content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2; }
+.content h2 {
+  color: #243c4f;
+  margin-bottom: 40px; }
+.content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius:0;
+  }
+.content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+  }
+.content .btn {
+  min-height: 50px; 
+  border-radius:0;
+  background: #243c4f;
+  color: #fff;
+  font-weight:600;
+  }
+
+/*
+
+* ======================================================================
+* WHO WE ARE
+* ======================================================================
+*
+*/
+#who-we-are{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+
+#who-we-are .box .icon {
+  position: absolute;
+  font-size: 120px;
+  width: 100%;
+  text-align: center;
+  top: -20px;
+  left: 0;
+  height: 100%;
+  float: left;
+  color: #eee;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 1;
+}
+
+#who-we-are .box h3 {
+  position: relative;
+  margin: 0 0 10px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  z-index: 2;
+}
+
+#who-we-are .box h3 a:hover {
+  text-decoration: whitesmoke;
+}
+
+#who-we-are .box p {
+  position: relative;
+  color:#707070;
+  z-index: 2;
+}
+ .color_design p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 300;
+
+} 
+
+/*
+*
+* ======================================================================
+* Services content page
+* ======================================================================
+*
+*/
+
+div#button-services{
+  float: left;
+}
+
+/*
+*
+* ======================================================================
+* FOOTER
+* ======================================================================
+*
+*/
+#footer {
+  background: #e9e1e1;
+  padding: 100px 0;
+}
+.footer-media.fa{
+  color: whitesmoke !important;
+}
+
+#footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#footer ul a {
+  color: black;
+}
+
+#footer .social {
+  text-align: left;
+}
+
+#footer .social a {
+  margin: 0 10px 0 0;
+  color: #fff;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  line-height: 26px;
+  font-size: 15px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  vertical-align: bottom;
+  background-color: #555;
+}
+
+#footer .social a i {
+  vertical-align: bottom;
+  line-height: 30px;
+}
+
+#footer .social a.facebook:hover {
+  background-color: #4460ae;
+}
+
+#footer .social a.gplus:hover {
+  background-color: #c21f25;
+}
+
+#footer .social a.twitter:hover {
+  background-color: black;
+}
+
+#footer .social a.instagram:hover {
+  background-color: #cd4378;
+}
+
+#footer .social a.email:hover {
+  background-color: black;
+}
+
+/*
+*
+* ======================================================================
+* COPYRIGHTS
+* ======================================================================
+*
+*/
+#copyright {
+  background: #333;
+  color: #ccc;
+  padding: 20px 0;
+  font-size: 0.738rem;
+}
+
+#copyright p {
+  margin: 0;
+}
+
+/*
+*
+* ======================================================================
+* BOXES
+* ======================================================================
+*
+*/
+.box {
+  background: #fff;
+  margin: 0 0 30px;
+  border: solid 1px #e6e6e6;
+  padding: 20px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box .box-header {
+  height: 200px;
+  clear: both;
+  background: #f7f7f7;
+  margin: -20px -20px 20px;
+  padding: 20px;
+  border-bottom: solid 1px #eee;
+}
+
+.box .box-footer {
+  clear: both;
+  background: #f7f7f7;
+  margin: 30px -20px -20px;
+  padding: 20px;
+  border-top: solid 1px #eee;
+}
+
+@media (max-width: 767.98px) {
+  .box .box-footer .btn {
+    margin-bottom: 20px;
+  }
+}
+
+.box.slideshow {
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.box.slideshow h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+/* 
+=====================
+STYLE SWITCHER FOR DEMO
+=====================
+
+*/
+#style-switch-button {
+  position: fixed;
+  top: 120px;
+  left: 0px;
+  border-radius: 0;
+  z-index: 2;
+}
+
+#style-switch {
+  width: 300px;
+  padding: 20px;
+  position: fixed;
+  top: 160px;
+  left: 0;
+  background: #fff;
+  border: solid 1px #ced4da;
+  z-index: 2000;
+}
+
+#style-switch h4 {
+  color: #495057;
+}
+
+/* =========================================
+
+      THEMING OF THE BOOTSTRAP COMPONENTS
+
+   =========================================
+
+    1 - NAVBAR
+    2 - BUTTONS
+    3 - TYPE
+    4 - PAGINATION
+    5 - UTILITIES
+    6 - FORMS
+    7 - CODE
+    8 - NAV
+    9 - CARD
+    10 - DROPDOWNS
+
+*/
+/*
+ * 1. NAVBAR
+ */
+.navbar {
+  padding: 0 1rem;
+  min-height: 30px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar ul{
+  font-size: 11.5px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.33125rem;
+  padding-bottom: 0.33125rem;
+  margin-right: 1rem;
+  font-size: 1.125rem;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.125rem;
+  line-height:0;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* .navbar-light .navbar-nav .nav-link.disabled {
+  color: rgba(0, 0, 0, 0.3);
+} */
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-dark .navbar-text {
+  color: rgba(255, 255, 255, 0.5);
+}

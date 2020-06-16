@@ -1,0 +1,141 @@
+{% extends 'oursite/base.html'%}
+{% load static %}
+{% block body %}
+<div class="main_services mt-5 ">
+    <div class="container-fluid">
+       <div class="row">
+         
+            
+        <div class="col-md-2">
+
+        </div>
+     <div class="col-md-8  col-sm-12 service_up">
+        <h2 class="text-center text-primary animated rollIn">What we offer</h2>
+            <h3 class="text-body">Software development</h3>
+            <p class="text-justify">Organizations face challenges on their digital evolution journey.New technologies offer new possibilities for where and how to conduct business. 
+                Customers expect more as competitors raise the bar on what constitutes good service. Amobit helps companies automate business processes while considering 
+                closely the specifics of your company and your computer system by providing a wide range of software engineering services which include architectural deseign,development 
+                ,testing and deployement.
+            </p>
+            <img class="justify-center img-fluid" src="{% static 'images/canva10.jpeg'%}" height="400px" width="800px"/>
+
+            <p class="mt-2">
+                We focus on user experience by providing solution that satisfy your demands and capabilities
+            </p>
+            <ul class="font-weight-bold">
+                <li>Desktop</li>
+                <li>Mobile</li>
+                <li>Web</li>
+            </ul>
+            <p class="text-justify"><strong>Note:</strong>Besides development amobit also provides:<br><strong class="mb-5">Maintenance</strong> services to ensure solution’s trouble-proof performance and its maximum efficiency in line with business needs.
+                 This includes functionality enhancement and the fix of bugs that may arise after it has been deployed and released.
+                <br><strong class="mt-5">Modernise</strong> your legacy programs in accordance with current technical capacities and business requirements. 
+                The conversion of outdated applications to modern programming languages, libraries and platforms allows getting the most out of your existing solutions.</p>
+     </div>
+    <div class="col-md-2  col-sm-12">
+
+    </div>
+
+    </div>
+
+    
+
+    </div>
+<!--end of soft-->
+<div class="container others">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <span class="fa-stack fa-5x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-laptop fa-stack-1x fa-inverse"></i> </span>
+              <h4 class="font-weight-bold mt-3 text-center wow rollIn">
+                IT equipment Supplies
+                </h4>
+              <p>Basing on our outstanding experience using different kinds of IT equipment we are the best choice to contact when in need of reliable IT equipment supplies that best fit your
+                  specifications which include but not limited to all categories of computers, printers, scanners, connector cables and cameras </p>
+             
+
+        </div>
+        <div class="col-md-6 text-center">
+           <span class="fa-stack fa-5x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-window-restore fa-stack-1x fa-inverse"></i>
+              </span>
+            <h4 class="font-weight-bold mt-3 wow rollIn">
+              Software Installation and Configuration
+              </h4>
+            <p>We have and provide all software that you need to get your computers working, that is genuine operating systems and all their licensed application programs. </p>
+            
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<div class="container">
+    <div class="services block block-bg-gradient block-border-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <span class="fa-stack fa-5x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-edit fa-stack-1x fa-inverse"></i> </span>
+              <h4 class="font-weight-bolder wow rollIn">
+                Graphics Design
+                </h4>
+              <p>This involves designing banners, logos, animations, wedding cards, business cards, identity Cards to mention but a few.
+              </p>
+             
+            </div>
+            <div class="col-md-6 text-center">
+              <span class="fa-stack fa-5x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i> </span>
+              <h4 class="font-weight-bold wow rollIn">
+                Data Entry
+                </h4>
+              <p>We have skilled workforce that can help you in data collection and the challenging part of data entry in analytical systems. </p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="mb-5 mt-5">
+        <div class="container">
+    
+          <div class="">
+            <h2 class="text-primary font-weight-bold text-center">Other services</h2>
+          </div>
+    
+          <div class="row mt-3">
+            <div class="col-lg-4 col-md-6  col-sm-12 icon-box" data-aos="fade-up">
+              <div class="">
+                  <img src="{% static 'images/repair.jpeg'%}" class="img-fluid" height="200px" width="300px" class="img-fluid">
+                  <h6 class="mt-2"><a href="">Computer repair and mentainance</a></h6>
+
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6  col-sm-12 icon-box" data-aos="fade-up">
+                <div class="">
+                    <img src="{% static 'images/print2.jpeg'%}" class="img-fluid" height="200px" width="300px">
+                    <h6 class="mt-2"><a href="">Scanning and printing of documents</a></h6>
+
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6  col-sm-12 icon-box" data-aos="fade-up">
+                <div class="">
+                    <img src="{% static 'images/canva7.jpeg'%}" class="img-fluid" height="200px" width="300px">
+                    <h6 class="mt-2"><a href="">Software installation and configuration</a></h6>
+
+                </div>
+              </div>
+          </div>
+        </div>
+    </section>    
+</div>
+
+
+{% endblock %}
